@@ -1,0 +1,30 @@
+# Exclude All
+**
+
+# Explicit includes
+!.github/
+!.github/**
+!.vscode/
+!.vscode/**
+!doc/
+!doc/**
+!strategies/
+!strategies/**
+!.dockerignore
+!.editorconfig
+!.gitattributes
+!.gitignore
+!Dockerfile
+!LICENSE
+!Makefile
+!README.md
+!config.cfg
+!docker-compose.yml
+!main.py
+!requirements.txt
+
+# Artifacts
+.DS_Store
+*.egg-info
+*.pyc
+__pycache__

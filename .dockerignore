@@ -1,0 +1,13 @@
+# Exclude All
+**
+
+# Explicit includes
+!.vscode
+!.vscode/**
+!strategies
+!Makefile
+!LICENSE
+!README.md
+!config.cfg
+!main.py
+!requirements.txt

@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: mercury_starter_kit
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
